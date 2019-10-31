@@ -1,1 +1,17 @@
 
+# 配置端口
+server:
+  port: 8080
+  servlet:
+    application-display-name: darker-blog
+
+spring:
+  application:
+    name: darker-blog
+  # 配置数据源
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.199.173.43:3306/darker-blog?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: root
+    password: qgx123456
+
