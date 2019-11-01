@@ -1,4 +1,4 @@
-![logo](images/index.gif)
+![logo](./images/index.gif)
 
 # darker-blog
 
