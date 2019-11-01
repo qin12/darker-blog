@@ -1,5 +1,3 @@
-mall项目全套学习教程连载中，[关注公众号](#公众号)第一时间获取。
-
 # IDEA常用设置及推荐插件
 
 >本文主要记录IDEA的一些常用设置，IDEA与Eclipse的常用快捷键对比及推荐一些好用的插件。
@@ -85,6 +83,4 @@ mall项目全套学习教程连载中，[关注公众号](#公众号)第一时�
 
 ![](../images/idea_screen_11.png)
 
-## 公众号
 
-![公众号图片](http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg)

@@ -1,5 +1,3 @@
-mall项目全套学习教程连载中，[关注公众号](#公众号)第一时间获取。
-
 # 开发者必备Linux命令
 
 > 开发者必备Linux常用命令，掌握这些命令绝对够了，基于CenterOS7.6。
@@ -300,7 +298,3 @@ sz fileName
 - 列出已经安装的所有软件包：yum info installed
 - 列出软件包名称：yum list nginx*
 - 模糊搜索软件包：yum search nginx
-
-## 公众号
-
-![公众号图片](http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg)

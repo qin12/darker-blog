@@ -1,5 +1,3 @@
-mall项目全套学习教程连载中，[关注公众号](#公众号)第一时间获取。
-
 ## Linux防火墙Firewall和Iptables的使用
 
 > Linux中有两种防火墙软件，ConterOS7.0以上使用的是firewall，ConterOS7.0以下使用的是iptables，本文将分别介绍两种防火墙软件的使用。
@@ -121,7 +119,3 @@ iptables -L INPUT --line-numbers -n
 iptables -D INPUT 1
 ```
 ![展示图片](../images/refer_screen_40.png)
-
-## 公众号
-
-![公众号图片](http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg)

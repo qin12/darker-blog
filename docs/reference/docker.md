@@ -1,5 +1,3 @@
-mall项目全套学习教程连载中，[关注公众号](#公众号)第一时间获取。
-
 # 开发者必备Docker命令
 
 > 本文主要讲解Docker环境的安装以及Docker常用命令的使用，掌握这些对Docker环境下应用的部署具有很大帮助。
@@ -184,8 +182,4 @@ ln -s /mydata/docker /var/lib/docker
 ```
 ![](../images/refer_screen_64.png)
 ![](../images/refer_screen_65.png)
-
-## 公众号
-
-![公众号图片](http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg)
 

@@ -1,5 +1,3 @@
-mall项目全套学习教程连载中，[关注公众号](#公众号)第一时间获取。
-
 # Hutool中那些常用的工具类和方法 
 
 > Hutool是一个Java工具包，它帮助我们简化每一行代码，避免重复造轮子。如果你有需要用到某些工具方法的时候，不妨在Hutool里面找找，可能就有。本文将对Hutool中的常用工具类和方法进行介绍。
@@ -234,12 +232,4 @@ try {
 ### 其他工具类
 
 Hutool中的工具类很多，可以参考：[https://www.hutool.cn/](https://www.hutool.cn/)
-
-## 项目源码地址
-
-[https://github.com/macrozheng/mall-learning/tree/master/mall-tiny-hutool](https://github.com/macrozheng/mall-learning/tree/master/mall-tiny-hutool)
-
-## 公众号
-
-![公众号图片](http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg)
 
