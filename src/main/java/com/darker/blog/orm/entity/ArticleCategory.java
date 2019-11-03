@@ -1,6 +1,7 @@
 package com.darker.blog.orm.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
@@ -10,44 +11,27 @@ import lombok.NoArgsConstructor;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@TableName(value = "tb_user")
-public class User implements Serializable {
+@TableName("tb_article_category")
+public class ArticleCategory implements Serializable {
 
-
-    /**
-     * 编号
-     */
     @TableId(type = IdType.AUTO)
     private Long id;
 
-    /**
-     * 用户名
-     */
     @NotNull
-    private String username;
+    @TableField("article_id")
+    private Long articleId;
 
-    /**
-     * 密码
-     */
     @NotNull
-    private String password;
-    /**
-     * 盐值
-     */
-    private String salt;
-    /**
-     * 头像
-     */
-    private String avatar;
-    /**
-     * 介绍
-     */
-    private String introduce;
-    /**
-     * 备注
-     */
-    private String remark;
+    @TableField("category_id")
+    private Long categoryId;
+
+
+    public ArticleCategory(Long articleId, Long categoryId) {
+        this.articleId = articleId;
+        this.categoryId = categoryId;
+    }
 }

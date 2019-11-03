@@ -10,44 +10,16 @@ import lombok.NoArgsConstructor;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@TableName(value = "tb_user")
-public class User implements Serializable {
+@TableName("tb_category")
+public class Category implements Serializable {
 
-
-    /**
-     * 编号
-     */
     @TableId(type = IdType.AUTO)
     private Long id;
 
-    /**
-     * 用户名
-     */
     @NotNull
-    private String username;
-
-    /**
-     * 密码
-     */
-    @NotNull
-    private String password;
-    /**
-     * 盐值
-     */
-    private String salt;
-    /**
-     * 头像
-     */
-    private String avatar;
-    /**
-     * 介绍
-     */
-    private String introduce;
-    /**
-     * 备注
-     */
-    private String remark;
+    private String name;
 }

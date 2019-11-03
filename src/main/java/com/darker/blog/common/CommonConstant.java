@@ -15,4 +15,15 @@ public interface CommonConstant {
      */
     int ERROR = 500;
 
+
+    /**
+     * 文章已发布状态标识：1
+     */
+    String DEFAULT_RELEASE_STATUS = "1";
+
+    /**
+     * 文章未发布状态标识：0
+     */
+    String DEFAULT_DRAFT_STATUS = "0";
+
 }
