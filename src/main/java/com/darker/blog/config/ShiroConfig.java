@@ -67,6 +67,7 @@ public class ShiroConfig {
         Map<String, String> filterChain = new LinkedHashMap<>();
         //配置白名单
         String[] urls = new String[]{
+                "/test/**",
                 "/api/comment/**",
                 "/login",
                 "/add",
